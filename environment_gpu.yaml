@@ -1,0 +1,17 @@
+channels:
+    - pytorch
+    - conda-forge
+name:
+    vem-primer-gpu
+dependencies:
+    - affogato
+    - bioimageio.core >=0.4.6
+    - cudatoolkit>=11,<12  # set correct cuda version for your system
+    - python-elf
+    - pip
+    - pytorch
+    - tensorboard
+    - tifffile
+    - torchvision
+    - tqdm
+    - torch_em  # TODO need to bring to conda-forge
