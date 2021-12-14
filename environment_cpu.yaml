@@ -1,0 +1,17 @@
+channels:
+    - pytorch
+    - conda-forge
+name:
+    vem-primer-cpu
+dependencies:
+    - affogato
+    - bioimageio.core >=0.4.6
+    - cpuonly
+    - python-elf
+    - pytorch
+    - tensorboard
+    - tifffile
+    - torchvision
+    - tqdm
+    - torch_em  # TODO need to bring to conda-forge
+    - jupyter
