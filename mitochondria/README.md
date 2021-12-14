@@ -1,6 +1,10 @@
 # Data Analysis: Mitochondria
 
-Analysis workflow for mitochondria. This example is focused on more advanced analysis using python, in particular making use of
+Analysis workflow for mitochondria: data preparation, semantic + instance segmentation and (simple) downstream analysis to determine the mitochondria size distribution. 
+
+![mito-em-analysis](https://user-images.githubusercontent.com/4263537/146000127-84b4b6e0-2b52-402c-b6b6-e8969f272025.png)
+
+This example is focused on more advanced analysis using python, in particular making use of
 a pretrained network for mitochondria segmentation from [the bioimageio modelzoo](https://bioimage.io).
 This analysis approach is suitable for most structures that have clearly identifiable boundaries.
 To apply it to a different EM modality or organelle, you will need to train your own network, see below.
