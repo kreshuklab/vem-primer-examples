@@ -1,6 +1,6 @@
 # vem-primer-examples
 
-Data analysis examples for the vEM primer (under developments).
+Data analysis examples for the vEM primer (under development).
 
 ## Examples
 
@@ -12,7 +12,7 @@ For both examples we also present some alternative segmentation approaches. In o
 The python notebooks can either be run on google colab (links are available in the example folders) or on your own system using conda (see below).
 
 
-## Setting up conda environments (advanced)
+## Setting up conda environments (Advanced)
 
 You can install either `environment_cpu.yaml` (if your machine does not have a GPU) or `environment_gpu.yaml` (if your machine has a GPU) via:
 ```
